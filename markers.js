@@ -1,18 +1,11 @@
 // Add your own markers to this file.
 
 var MAPCRAFTER_MARKERS = [
-	
-	// just one example marker group
 	{
-		// id of the marker group, without spaces/other special chars
 		"id" : "homes",
-		// name of the marker group, displayed in the webinterface
 		"name" : "Дома",
-		// icon of the markers belonging to that group (optional)
 		"icon" : "home.png",
-		// size of that icon
 		"iconSize" : [32, 32],
-		// whether this marker group is shown by default (optional)
 		"showDefault" : true,
 		"markers" : {
 			"pure" : [
@@ -49,19 +42,12 @@ var MAPCRAFTER_MARKERS = [
 			],
 		},
 	},
-	
 	{
-		// id of the marker group, without spaces/other special chars
 		"id" : "farms",
-		// name of the marker group, displayed in the webinterface
 		"name" : "Фермы",
-		// icon of the markers belonging to that group (optional)
 		"icon" : "farm.png",
-		// size of that icon
 		"iconSize" : [32, 32],
-		// whether this marker group is shown by default (optional)
 		"showDefault" : true,
-		// markers of this marker group...
 		"markers" : {
 			// ...in the world "world"
 			"pure" : [
@@ -99,19 +85,12 @@ var MAPCRAFTER_MARKERS = [
 		},
 	},
 	{
-		// id of the marker group, without spaces/other special chars
 		"id" : "portals",
-		// name of the marker group, displayed in the webinterface
 		"name" : "Порталы",
-		// icon of the markers belonging to that group (optional)
 		"icon" : "portal.png",
-		// size of that icon
 		"iconSize" : [32, 32],
-		// whether this marker group is shown by default (optional)
 		"showDefault" : true,
-		// markers of this marker group...
 		"markers" : {
-			// ...in the world "world"
 			"pure" : [
 				{"pos" : [-47, 232, 64], "title" : "Спавн", "icon" : "spawn.png"},
 				{"pos" : [-37, 225, 64], "title" : "Спавн"},
@@ -153,19 +132,12 @@ var MAPCRAFTER_MARKERS = [
 		},
 	},
 	{
-		// id of the marker group, without spaces/other special chars
 		"id" : "poi",
-		// name of the marker group, displayed in the webinterface
 		"name" : "Интересное",
-		// icon of the markers belonging to that group (optional)
 		"icon" : "poi.png",
-		// size of that icon
 		"iconSize" : [32, 32],
-		// whether this marker group is shown by default (optional)
 		"showDefault" : true,
-		// markers of this marker group...
 		"markers" : {
-			// ...in the world "world"
 			"pure" : [
 				{"pos" : [-2900,3300, 64], "title" : "Грибной биом"},
 				{"pos" : [20266,20017, 64], "title" : "Грибной биом"},
@@ -189,6 +161,7 @@ var MAPCRAFTER_MARKERS = [
 				{"pos" : [1441, 2645, 64], "title" : "Биом цветочного леса"},
 				{"pos" : [-111, 337, 64], "title" : "Сплиф"},
 				{"pos" : [-475, 2544, 64], "title" : "Новая деревня"},
+				{"pos" : [762, 1884, 64], "title" : "Места добычи песка"},
 				{"pos" : [309, -1265, 64], "title" : "Недострой Sun_Sereg-и - \"Ферма пассивных мобов\""},
 
 			],
@@ -198,6 +171,7 @@ var MAPCRAFTER_MARKERS = [
 			],
 		},
 	},
+	
 	// you can also add more complicated markers using the Leaflet API
 	// just specify a function which creates the Leaflet API marker objects
 	/*{
