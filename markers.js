@@ -206,7 +206,7 @@ var MAPCRAFTER_MARKERS = [
 					"color" : "yellow",
 				},
 				{
-				{"pos" : [309, -1265, 64], "title" : "Недострой Sun_Sereg-и - \"Ферма пассивных мобов\""},
+				
 				},
 			],
 		},
