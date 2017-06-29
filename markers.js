@@ -1,4 +1,4 @@
-// Add your own markers to this file.
+﻿// Add your own markers to this file.
 
 var MAPCRAFTER_MARKERS = [
 	{
@@ -204,6 +204,9 @@ var MAPCRAFTER_MARKERS = [
 					"p3" : [-42, 73],
 					"p4" : [73, 73],
 					"color" : "yellow",
+				},
+				{
+				{"pos" : [309, -1265, 64], "title" : "Недострой Sun_Sereg-и - \"Ферма пассивных мобов\""},
 				},
 			],
 		},
