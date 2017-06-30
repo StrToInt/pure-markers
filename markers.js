@@ -168,6 +168,7 @@ var MAPCRAFTER_MARKERS = [
 				{"pos" : [-5525, -192, 64], "title" : "Губок нет"},
 				{"pos" : [-5291, -627, 64], "title" : "Губок нет"},
 				{"pos" : [-3943, 87, 64], "title" : "Губок нет"},
+				{"pos" : [-31798, 31722, 64], "title" : "AMPLIFIED земля"},
 
 			],
 			"nether" : [
@@ -179,41 +180,29 @@ var MAPCRAFTER_MARKERS = [
 	
 	// you can also add more complicated markers using the Leaflet API
 	// just specify a function which creates the Leaflet API marker objects
-	/*{
+	{
 		"id" : "test",
-		"name" : "Test",
+		"name" : "Порталы",
 		"createMarker" : function(ui, groupInfo, markerInfo) {
 			var latlngs = [];
 			// use the ui.mcToLatLng-function to convert Minecraft coords to LatLngs
 			latlngs.push(ui.mcToLatLng(markerInfo.p1[0], markerInfo.p1[1], 64));
 			latlngs.push(ui.mcToLatLng(markerInfo.p2[0], markerInfo.p2[1], 64));
-			latlngs.push(ui.mcToLatLng(markerInfo.p3[0], markerInfo.p3[1], 64));
-			latlngs.push(ui.mcToLatLng(markerInfo.p4[0], markerInfo.p4[1], 64));
-			latlngs.push(ui.mcToLatLng(markerInfo.p1[0], markerInfo.p1[1], 64));
 			
 			return L.polyline(latlngs, {"color" : markerInfo.color});
 		},
 		"markers" : {
-			"world" : [
-				{
-					"p1" : [42, 0],
-					"p2" : [0, 0],
-					"p3" : [0, 42],
-					"p4" : [42, 42],
-					"color" : "red",
-				},
-				{
-					"p1" : [73, -42],
-					"p2" : [-42, -42],
-					"p3" : [-42, 73],
-					"p4" : [73, 73],
-					"color" : "yellow",
-				},
-				{
-				
-				},
+			"pure" : [
+				{"p1" : [-31798, 31722],"p2" : [-164, 467],"color" : "purple"},
+				{"p1" : [-164, 467],"p2" : [-37, 225],"color" : "purple"},
+				{"p1" : [-164, 467],"p2" : [173, 529],"color" : "purple"},
+				{"p1" : [-164, 467],"p2" : [720, 1780],"color" : "purple"},
+				{"p1" : [-164, 467],"p2" : [11903, 20969],"color" : "purple"},
+				{"p1" : [-164, 467],"p2" : [-1822, 603],"color" : "purple"},
+				{"p1" : [-164, 467],"p2" : [-198, -1250],"color" : "purple"},
+				{"p1" : [-164, 467],"p2" : [-37, 225],"color" : "purple"},
 			],
 		},
-	},*/
+	},
 	
 ];
