@@ -60,7 +60,6 @@ var MAPCRAFTER_MARKERS = [
 		"iconSize" : [32, 32],
 		"showDefault" : false,
 		"markers" : {
-			// ...in the world "world"
 			"pure" : [
 				{"pos" : [-372, 391, 64], "title" : "Мобоферма"},
 				{"pos" : [310, 489, 64], "title" : "Мобоферма Kapiteon-a"},
@@ -184,6 +183,7 @@ var MAPCRAFTER_MARKERS = [
 				{"pos" : [-3943, 87, 64], "title" : "Губок нет"},
 				{"pos" : [-31798, 31722, 64], "title" : "AMPLIFIED земля"},
 				{"pos" : [-85, 835, 64], "title" : "Хрень с собакой Nekro"},
+				{"pos" : [1000, 1800, 64], "title" : "Neko Chan", "icon" : "http://animemobi.ru/uploads/posts/2013-08/1375958583_-5684963_307524447.jpg"},
 
 			],
 			"nether" : [
