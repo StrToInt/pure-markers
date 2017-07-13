@@ -96,7 +96,8 @@ var MAPCRAFTER_MARKERS = [
 	{
 		"id" : "portals",
 		"name" : "Порталы",
-		"icon" : "portal.png",
+		//"icon" : "portal.png",
+		"icon" : "http://1.bp.blogspot.com/-2WK_i_GpIjY/UF1fjkodMiI/AAAAAAAAASo/X2bzN20t7Mc/s1600/portalicon.png",
 		"iconSize" : [32, 32],
 		"showDefault" : true,
 		"markers" : {
