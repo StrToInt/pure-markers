@@ -221,7 +221,7 @@ var MAPCRAFTER_MARKERS = [
 				{"p1" : [-22, 68],"p2" : [-187, -477],"color" : "white"},//плотный лёд
 				
 				{"pos" : [-22, 68, 64], "title" : "Хаб", "icon" : "spawn.png"},
-			]
+			],
 		},
 	},
 	
