@@ -203,7 +203,7 @@ var MAPCRAFTER_MARKERS = [
 	
 	{
 		"id" : "lines",
-		"name" : "Линии",
+		"name" : "пути",
 		"createMarker" : function(ui, groupInfo, markerInfo) {
 			
 			var latlngs = [];
