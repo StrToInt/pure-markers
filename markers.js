@@ -204,12 +204,13 @@ var MAPCRAFTER_MARKERS = [
 		"id" : "lines",
 		"name" : "Линии",
 		"createMarker" : function(ui, groupInfo, markerInfo) {
+			
 			var latlngs = [];
-			// use the ui.mcToLatLng-function to convert Minecraft coords to LatLngs
-			latlngs.push(ui.mcToLatLng(markerInfo.p1[0], markerInfo.p1[1], 64));
-			latlngs.push(ui.mcToLatLng(markerInfo.p2[0], markerInfo.p2[1], 64));
+			latlngs.push(ui.mcToLatLng(markerInfo.p1[0], markerInfo.p1[1], 128));
+			latlngs.push(ui.mcToLatLng(markerInfo.p2[0], markerInfo.p2[1], 128));
 			
 			return L.polyline(latlngs, {"color" : markerInfo.color});
+			
 		},
 		"markers" : {
 			"pure" : [
@@ -235,6 +236,42 @@ var MAPCRAFTER_MARKERS = [
 				{"p1" : [-22, 68],"p2" : [-187, -477],"color" : "#FFFFFF"},//плотный лёд
 			],
 		},
+	},
+	
+	
+	
+	//--------------------------------------------------------------------------------------------------------------------------
+	//                                                       test
+	//--------------------------------------------------------------------------------------------------------------------------
+	
+	
+	
+	{
+		"id" : "test",
+		"name" : "test",
+		"createMarker" : function(ui, groupInfo, markerInfo) {
+			
+			var latlngs = [];
+			latlngs.push(ui.mcToLatLng(markerInfo.p[0][0], markerInfo.p[0][1], 128));
+			latlngs.push(ui.mcToLatLng(markerInfo.p[1][0], markerInfo.p[0][1], 128));
+			latlngs.push(ui.mcToLatLng(markerInfo.p[1][0], markerInfo.p[1][1], 128));
+			latlngs.push(ui.mcToLatLng(markerInfo.p[0][0], markerInfo.p[1][1], 128));
+			
+			return L.polygon(
+				latlngs,
+				{
+				color : markerInfo.color,
+				fillOpacity : 0.0
+				}
+				);
+			
+		},
+		"markers" : {
+			"pure" : [
+				{"p" : [[ -620,2350 ],[ 330,2790 ]],"color" : "#FF80FF"},
+			],
+		},
+		
 	},
 	
 ];
