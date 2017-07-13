@@ -19,6 +19,7 @@ var MAPCRAFTER_MARKERS = [
 		"markers" : {
 			"pure" : [
 				{"pos" : [-91, 390, 64], "title" : "Дом 1523132/Звезда смерти"},
+				{"pos" : [-163, 495, 64], "title" : "Дом ENKA"},
 				{"pos" : [-267, 520, 64], "title" : "Дом WaterDemon-a"},
 				{"pos" : [-434, 532, 64], "title" : "Особняк WaterDemon-a"},
 				{"pos" : [-100, 551, 64], "title" : "Дом SadMoon"},
