@@ -58,7 +58,7 @@ var MAPCRAFTER_MARKERS = [
 		"name" : "Фермы",
 		"icon" : "farm.png",
 		"iconSize" : [32, 32],
-		"showDefault" : true,
+		"showDefault" : false,
 		"markers" : {
 			// ...in the world "world"
 			"pure" : [
@@ -150,7 +150,7 @@ var MAPCRAFTER_MARKERS = [
 		"name" : "Интересное",
 		"icon" : "poi.png",
 		"iconSize" : [32, 32],
-		"showDefault" : true,
+		"showDefault" : false,
 		"markers" : {
 			"pure" : [
 				{"pos" : [-2900,3300, 64], "title" : "Грибной биом"},
@@ -204,6 +204,7 @@ var MAPCRAFTER_MARKERS = [
 	{
 		"id" : "lines",
 		"name" : "пути",
+		"showDefault" : false,
 		"createMarker" : function(ui, groupInfo, markerInfo) {
 			
 			var latlngs = [];
@@ -250,6 +251,7 @@ var MAPCRAFTER_MARKERS = [
 	{
 		"id" : "test",
 		"name" : "test",
+		"showDefault" : false,
 		"createMarker" : function(ui, groupInfo, markerInfo) {
 			
 			var latlngs = [];
