@@ -184,6 +184,7 @@ var MAPCRAFTER_MARKERS = [
 				{"pos" : [-5291, -627, 64], "title" : "Губок нет"},
 				{"pos" : [-3943, 87, 64], "title" : "Губок нет"},
 				{"pos" : [-31798, 31722, 64], "title" : "AMPLIFIED земля"},
+				{"pos" : [-85, 835, 64], "title" : "Хрень с собакой Nekro"},
 
 			],
 			"nether" : [
