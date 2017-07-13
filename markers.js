@@ -97,6 +97,9 @@ var MAPCRAFTER_MARKERS = [
 		"id" : "portals",
 		"name" : "Порталы",
 		//"icon" : "portal.png",
+		//стрелка у иконки показывала не на координаты а ниже, сбивало когда считаешь координаты
+		//ещё много иконок так и стоит новерно поменять у некоторых точек особенно в интересном иконку
+		//как у дома санты красиса на картинку санты
 		"icon" : "http://1.bp.blogspot.com/-2WK_i_GpIjY/UF1fjkodMiI/AAAAAAAAASo/X2bzN20t7Mc/s1600/portalicon.png",
 		"iconSize" : [32, 32],
 		"showDefault" : true,
