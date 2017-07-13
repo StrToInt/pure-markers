@@ -184,7 +184,7 @@ var MAPCRAFTER_MARKERS = [
 				{"pos" : [-31798, 31722, 64], "title" : "AMPLIFIED земля"},
 				{"pos" : [-85, 835, 64], "title" : "Хрень с собакой Nekro"},
 				//XD
-				{"pos" : [1000, 1800, 64], "title" : "Neko Chan", "icon" : "http://animemobi.ru3/uploads/posts/2013-08/175958583_-5684963_307524447.jpg","iconSize" : [800, 1280]},
+				{"pos" : [1000, 1800, 64], "title" : "Neko Chan", "icon" : "http://animemobi.ru3/uploads/posts/2013-08/175958583_-5684963_307524447.jpg","iconSize" : [80, 128]},
 
 			],
 			"nether" : [
