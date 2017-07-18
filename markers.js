@@ -97,11 +97,8 @@ var MAPCRAFTER_MARKERS = [
 		"id" : "portals",
 		"name" : "Порталы",
 		//"icon" : "portal.png",
-		//стрелка у иконки показывала не на координаты а ниже, сбивало когда считаешь координаты
-		//ещё много иконок показывает так мимо и пожалуй стоит поменять у некоторых точек особенно в разделе
-		//"интересне" иконки как у дома санты красиса поставить картинку красиса
-		//да, новая иконка слишком уж прозрачная хоть и лучше старой и да я создаю 10 версий потому что спешу)))
-		"icon" : "http://1.bp.blogspot.com/-2WK_i_GpIjY/UF1fjkodMiI/AAAAAAAAASo/X2bzN20t7Mc/s1600/portalicon.png",
+		//"icon" : "http://1.bp.blogspot.com/-2WK_i_GpIjY/UF1fjkodMiI/AAAAAAAAASo/X2bzN20t7Mc/s1600/portalicon.png",
+		//"icon" : "https://pp.userapi.com/c841024/v841024230/d3b0/FaRdBEMr4ug.jpg",
 		"iconSize" : [32, 32],
 		"showDefault" : true,
 		"markers" : {
@@ -152,7 +149,8 @@ var MAPCRAFTER_MARKERS = [
 	{
 		"id" : "poi",
 		"name" : "Интересное",
-		"icon" : "poi.png",
+		//"icon" : "poi.png",
+		"icon" : "https://pp.userapi.com/c841024/v841024230/d3b7/bOQ2vdgkNz8.jpg",
 		"iconSize" : [32, 32],
 		"showDefault" : false,
 		"markers" : {
