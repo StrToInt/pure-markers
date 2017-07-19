@@ -151,7 +151,7 @@ var MAPCRAFTER_MARKERS = [
 		"name" : "Интересное",
 		//"icon" : "poi.png",
 		"icon" : "https://pp.userapi.com/c841024/v841024230/d3b7/bOQ2vdgkNz8.jpg",
-		"iconSize" : [32, 32],
+		"iconSize" : [32, 64],
 		"showDefault" : false,
 		"markers" : {
 			"pure" : [
