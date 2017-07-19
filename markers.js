@@ -58,7 +58,7 @@ var MAPCRAFTER_MARKERS = [
 		"name" : "Фермы",
 		"icon" : "farm.png",
 		"iconSize" : [32, 32],
-		"showDefault" : true,
+		"showDefault" : false,
 		"markers" : {
 			"pure" : [
 				{"pos" : [-372, 391, 64], "title" : "Мобоферма"},
@@ -153,7 +153,7 @@ var MAPCRAFTER_MARKERS = [
 		"icon" : "poi.png",
 		//"icon" : "https://4.downloader.disk.yandex.ru/preview/bce58b2f9de16eee6a840795534076653be8747c7b59640ce28fa70d91b3d143/inf/9UWOJCYoqAO045mwgsIZiL7VY3JStKUdEb-ceNS9CnJQV3uQIV06MT38mYDK8rqUw9E8JS6gTJhcm3zCOcHA7Q%3D%3D?uid=0&filename=Hier.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=XXL&crop=0",
 		"iconSize" : [64, 64],
-		"showDefault" : true,
+		"showDefault" : false,
 		"markers" : {
 			"pure" : [
 				{"pos" : [-2900,3300, 64], "title" : "Грибной биом"},
@@ -207,7 +207,7 @@ var MAPCRAFTER_MARKERS = [
 	{
 		"id" : "lines",
 		"name" : "пути",
-		"showDefault" : true,
+		"showDefault" : false,
 		"createMarker" : function(ui, groupInfo, markerInfo) {
 			
 			var latlngs = [];
@@ -255,6 +255,7 @@ var MAPCRAFTER_MARKERS = [
 	{
 		"id" : "test",
 		"name" : "test",
+		"show" : "false"
 		"showDefault" : false,
 		"createMarker" : function(ui, groupInfo, markerInfo) {
 			
