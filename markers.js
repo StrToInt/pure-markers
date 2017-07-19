@@ -97,8 +97,8 @@ var MAPCRAFTER_MARKERS = [
 		"id" : "portals",
 		"name" : "Порталы",
 		//"icon" : "portal.png",
-		//"icon" : "http://1.bp.blogspot.com/-2WK_i_GpIjY/UF1fjkodMiI/AAAAAAAAASo/X2bzN20t7Mc/s1600/portalicon.png",
-		"icon" : "https://2.downloader.disk.yandex.ru/preview/8cbe9e415a999f740d199799d1408ef642fee6d8b59debb83e2a32070f13cc85/inf/9UWOJCYoqAO045mwgsIZiOYNHsG9vNyRUkA2ax2Wt9j6DwpmO6-i_ggDLVI90n3IpOOCpDTcndvbYjgapJPx5w%3D%3D?uid=0&filename=portal.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=XXL&crop=0",
+		"icon" : "https://counter-strike.com.ua/uploads/images/icons/portal/portal_102.png",
+		//"icon" : "https://2.downloader.disk.yandex.ru/preview/8cbe9e415a999f740d199799d1408ef642fee6d8b59debb83e2a32070f13cc85/inf/9UWOJCYoqAO045mwgsIZiOYNHsG9vNyRUkA2ax2Wt9j6DwpmO6-i_ggDLVI90n3IpOOCpDTcndvbYjgapJPx5w%3D%3D?uid=0&filename=portal.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=XXL&crop=0",
 		"iconSize" : [32, 32],
 		"showDefault" : true,
 		"markers" : {
