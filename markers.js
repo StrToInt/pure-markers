@@ -255,7 +255,6 @@ var MAPCRAFTER_MARKERS = [
 	{
 		"id" : "test",
 		"name" : "test",
-		"show" : "false"
 		"showDefault" : false,
 		"createMarker" : function(ui, groupInfo, markerInfo) {
 			
