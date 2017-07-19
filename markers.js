@@ -98,7 +98,7 @@ var MAPCRAFTER_MARKERS = [
 		"name" : "Порталы",
 		//"icon" : "portal.png",
 		//"icon" : "http://1.bp.blogspot.com/-2WK_i_GpIjY/UF1fjkodMiI/AAAAAAAAASo/X2bzN20t7Mc/s1600/portalicon.png",
-		//"icon" : "https://pp.userapi.com/c841024/v841024230/d3b0/FaRdBEMr4ug.jpg",
+		"icon" : "https://2.downloader.disk.yandex.ru/preview/8cbe9e415a999f740d199799d1408ef642fee6d8b59debb83e2a32070f13cc85/inf/9UWOJCYoqAO045mwgsIZiOYNHsG9vNyRUkA2ax2Wt9j6DwpmO6-i_ggDLVI90n3IpOOCpDTcndvbYjgapJPx5w%3D%3D?uid=0&filename=portal.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=XXL&crop=0",
 		"iconSize" : [32, 32],
 		"showDefault" : true,
 		"markers" : {
@@ -150,7 +150,7 @@ var MAPCRAFTER_MARKERS = [
 		"id" : "poi",
 		"name" : "Интересное",
 		//"icon" : "poi.png",
-		"icon" : "https://pp.userapi.com/c841024/v841024230/d3b7/bOQ2vdgkNz8.jpg",
+		"icon" : "https://4.downloader.disk.yandex.ru/preview/bce58b2f9de16eee6a840795534076653be8747c7b59640ce28fa70d91b3d143/inf/9UWOJCYoqAO045mwgsIZiL7VY3JStKUdEb-ceNS9CnJQV3uQIV06MT38mYDK8rqUw9E8JS6gTJhcm3zCOcHA7Q%3D%3D?uid=0&filename=Hier.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=XXL&crop=0",
 		"iconSize" : [32, 64],
 		"showDefault" : false,
 		"markers" : {
