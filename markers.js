@@ -255,28 +255,30 @@ var MAPCRAFTER_MARKERS = [
 	{
 		"id" : "test",
 		"name" : "test",
-		"show" : false,
 		"showDefault" : false,
 		"createMarker" : function(ui, groupInfo, markerInfo) {
 			
 			var latlngs = [];
-			latlngs.push(ui.mcToLatLng(markerInfo.p[0][0], markerInfo.p[0][1], 128));
-			latlngs.push(ui.mcToLatLng(markerInfo.p[1][0], markerInfo.p[0][1], 128));
-			latlngs.push(ui.mcToLatLng(markerInfo.p[1][0], markerInfo.p[1][1], 128));
-			latlngs.push(ui.mcToLatLng(markerInfo.p[0][0], markerInfo.p[1][1], 128));
+			for (var i = 0; i < markerInfo.p.length; i++)
+				latlngs.push(ui.mcToLatLng(markerInfo.p[i][0], markerInfo.p[i][1], 128));
 			
 			return L.polygon(
 				latlngs,
 				{
-				color : markerInfo.color,
-				fillOpacity : 0.0
+					color : markerInfo.color,
+					fillOpacity : markerInfo.fo
 				}
 				);
 			
 		},
 		"markers" : {
 			"pure" : [
-				{"p" : [[ -620,2350 ],[ -330,2790 ]],"color" : "#FF80FF"},
+				{"p" : [
+					[ -620,2790 ],
+					[ -620,2350 ],
+					[ -330,2350 ],
+					[ -330,2790 ]
+				],"color" : "#FF80FF","fo" : 0.0},
 			],
 		},
 		
