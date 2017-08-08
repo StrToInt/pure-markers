@@ -206,7 +206,7 @@ var MAPCRAFTER_MARKERS = [
 	
 	{
 		"id" : "lines",
-		"name" : "пути",
+		"name" : "Пути",
 		"showDefault" : false,
 		"createMarker" : function(ui, groupInfo, markerInfo) {
 			
@@ -253,8 +253,8 @@ var MAPCRAFTER_MARKERS = [
 	
 	
 	{
-		"id" : "test",
-		"name" : "test",
+		"id" : "Polygons",
+		"name" : "Области",
 		"showDefault" : false,
 		"createMarker" : function(ui, groupInfo, markerInfo) {
 			
@@ -274,11 +274,17 @@ var MAPCRAFTER_MARKERS = [
 		"markers" : {
 			"pure" : [
 				{"p" : [
-					[ -620,2790 ],
-					[ -620,2350 ],
-					//[ -330,2350 ],
-					[ -330,2790 ]
-				],"color" : "#FF80FF","fo" : 0.5,"text" : "test text"},
+					[ -509,2732 ],
+					[ -505,2745 ],
+					[ -504,2754 ],
+					[ -496,2763 ],
+					[ -490,2763 ],
+					[ -482,2750 ],
+					[ -482,2736 ],
+					[ -487,2731 ],
+					[ -491,2729 ],
+					[ -505,2729 ]
+				],"color" : "#00BAE8","fo" : 0.3,"text" : "<b>рай попугаев</b><br>тура и сед мун</br>"},
 			],
 		},
 		
