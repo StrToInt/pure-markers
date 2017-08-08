@@ -277,8 +277,9 @@ var MAPCRAFTER_MARKERS = [
 				{"p" : [
 					[ -620,2790 ],
 					[ -620,2350 ],
+					[ -330,2350 ],
 					[ -330,2790 ]
-				],"color" : "#FF80FF","fo" : 0.0,"text" : "test text"},
+				],"color" : "#FF80FF","fo" : 0.1,"text" : "test text"},
 			],
 		},
 		
