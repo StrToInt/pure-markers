@@ -266,10 +266,9 @@ var MAPCRAFTER_MARKERS = [
 				latlngs,
 				{
 					color : markerInfo.color,
-					fillOpacity : markerInfo.fo,
-					attribution : markerInfo.text
+					fillOpacity : markerInfo.fo
 				}
-				);
+				).bindPopup(markerInfo.text);
 			
 		},
 		"markers" : {
@@ -277,9 +276,9 @@ var MAPCRAFTER_MARKERS = [
 				{"p" : [
 					[ -620,2790 ],
 					[ -620,2350 ],
-					[ -330,2350 ],
+					//[ -330,2350 ],
 					[ -330,2790 ]
-				],"color" : "#FF80FF","fo" : 0.1,"text" : "test text"},
+				],"color" : "#FF80FF","fo" : 0.5,"text" : "test text"},
 			],
 		},
 		
