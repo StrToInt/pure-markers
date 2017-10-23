@@ -21,7 +21,8 @@ var MAPCRAFTER_MARKERS = [
 				{"pos" : [0, 0, 0], "title" : "Null"},
 			],
 		},
-	},{
+	},
+	{
 		"id" : "farms",
 		"name" : "Фермы",
 		"icon" : "farm.png",
@@ -41,7 +42,8 @@ var MAPCRAFTER_MARKERS = [
 				{"pos" : [0, 0, 0], "title" : "Null"},
 			],
 		},
-	},{
+	},
+	{
 		"id" : "portals",
 		"name" : "Порталы",
 		//"icon" : "portal.png",
@@ -63,7 +65,8 @@ var MAPCRAFTER_MARKERS = [
 				{"pos" : [0, 0, 70], "title" : "Порт назад"},
 			],
 		},
-	},{
+	},
+	{
 		"id" : "poi",
 		"name" : "Интересное",
 		//"icon" : "poi.png",
@@ -81,7 +84,8 @@ var MAPCRAFTER_MARKERS = [
 				{"pos" : [17256,-31879,63], "title" : "Вещи Sun Serega(что не влезло в энд сундуке)"},
 			],
 		},
-	},{
+	},
+	{
 		"id" : "gate's",
 		"name" : "Гейты",
 		//"icon" : "portal.png",
@@ -201,7 +205,8 @@ var MAPCRAFTER_MARKERS = [
 				{"p1" : [-96, +00, 75], "p2" : [ -773,   -3, 85],"color" : "#00FF00","text" : "<b>Путь гейта W+0</b><br>[Ферма эндерменов]</br>"},
 			],
 		},
-	},{
+	},
+	{
 		"id" : "traces",
 		"name" : "Тропы",
 		"showDefault" : false,
