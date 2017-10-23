@@ -18,7 +18,14 @@ var MAPCRAFTER_MARKERS = [
 		"showDefault" : true,
 		"markers" : {
 			"pure" : [
-				{"pos" : [0, 0, 0], "title" : "Null"},
+				{"pos" : [-37, -143, 0], "title" : "<br>Недо домик на спавне<br>типо для новичков но там ничо нет"},
+				{"pos" : [250, -441, 0], "title" : "Центр общего дома + порт в ад"},
+				{"pos" : [264, -422, 0], "title" : "Чей то дом"},
+				{"pos" : [285, -441, 0], "title" : "Sad_Moon"},
+				{"pos" : [264, -519, 0], "title" : "Вроде arhi"},
+				{"pos" : [336, -395, 0], "title" : "Замок Lingnum"},
+				{"pos" : [537, -342, 0], "title" : "<b>Замок следующих:</b><br>AlanFox</br><br>носок(забыл ник)</br><br>ещё кто то(вроде ещё 2)</br>"},
+				{"pos" : [1210, -485, 0], "title" : "Sun Serega"},
 			],
 		},
 	},
@@ -30,16 +37,12 @@ var MAPCRAFTER_MARKERS = [
 		"showDefault" : false,
 		"markers" : {
 			"pure" : [
-				{"pos" : [0, 0, 0], "title" : "Null"},
-			],
-			"nether" : [
-				{"pos" : [0, 0, 0], "title" : "Null"},
-			],
-			"nether_caves" : [
-				{"pos" : [0, 0, 0], "title" : "Null"},
+				{"pos" : [2040, -504, 190], "title" : "Ферма пороха"},
+				{"pos" : [2100, -478, 190], "title" : "Ферма скелетов"},
 			],
 			"pure_end" : [
-				{"pos" : [0, 0, 0], "title" : "Null"},
+				{"pos" : [800, 0, 0], "title" : "Ферма житаков"},
+				{"pos" : [-775, 0, 0], "title" : "Ферма Эндерменовый дождь"},
 			],
 		},
 	},
@@ -53,13 +56,14 @@ var MAPCRAFTER_MARKERS = [
 		"showDefault" : true,
 		"markers" : {
 			"pure" : [
-				{"pos" : [0, 0, 0], "title" : "Null"},
-			],
-			"nether" : [
-				{"pos" : [0, 0, 0], "title" : "Null"},
+				{"pos" : [-5, -2148, 0], "title" : "Край"},
 			],
 			"nether_caves" : [
-				{"pos" : [0, 0, 0], "title" : "Null"},
+				{"pos" : [46.5, -53, 0], "title" : "<b>Общий дом</b><br>Sad_Moon</br>"},
+				{"pos" : [56, -37.5, 0], "title" : "<b>Замок Lingnum</b><br>Lingnum</br><br>ещё кто то</br>"},
+				{"pos" : [73, -37.5, 0], "title" : "<b>Замок следующих:</b><br>AlanFox</br><br>носок(забыл ник)</br><br>ещё кто то(вроде ещё 2)</br>"},
+				{"pos" : [265, -58, 0], "title" : "<b>Зона временных ферм</b><br>Ферма пороха(и ниток)</br><br>Ферма скелетов</br><br>он дето тут, надо бы точные корды</br>"},
+				{"pos" : [6, -264.5, 0], "title" : "Порт в край"},
 			],
 			"pure_end" : [
 				{"pos" : [0, 0, 70], "title" : "Порт назад"},
@@ -75,13 +79,13 @@ var MAPCRAFTER_MARKERS = [
 		"showDefault" : false,
 		"markers" : {
 			"pure" : [
-				{"pos" : [0, 0, 0], "title" : "Null"},
+				{"pos" : [2100, -500, 100], "title" : "Зона временных ферм"},
 			],
 			"nether" : [
-				{"pos" : [0, 0, 0], "title" : "Null"},
+				{"pos" : [43, -100, 0], "title" : "Дырка в бедроке 3х3"},
 			],
 			"pure_end" : [
-				{"pos" : [17256,-31879,63], "title" : "Вещи Sun Serega(что не влезло в энд сундуке)"},
+				{"pos" : [17256,-31879,63], "title" : "<br>Вещи Sun Serega(что не влезло в энд сундуке).</br><br>Забирайте кому не лень долететь сюды)))</br>"},
 			],
 		},
 	},
@@ -195,8 +199,11 @@ var MAPCRAFTER_MARKERS = [
 		"markers" : {
 			"pure_end" : [
 				{"p1" : [+56, -77, 75], "p2" : [+96, +00, 75],"color" : "#FF0000","text":"IN+2-IE+0"},//skip 2
+				
 				{"p1" : [+96, +00, 75], "p2" : [+00, +96, 75],"color" : "#FF0000","text":"IE+0-IS+0"},//skip 4
+				
 				{"p1" : [+00, +96, 75], "p2" : [-96, +00, 75],"color" : "#FF0000","text":"IS+0-IW+0"},//skip 4
+				
 				{"p1" : [-96, +00, 75], "p2" : [+56, -77, 75],"color" : "#FF0000","text":"IW+0-IN+2"},//skip 6
 				
 				{"p1" : [+56, -77, 75], "p2" : [ +615, -800, 69],"color" : "#00FF00","text" : "<b>Путь гейта N+2</b><br>[Новые земли]</br>"},
@@ -221,10 +228,10 @@ var MAPCRAFTER_MARKERS = [
 		},
 		"markers" : {
 			"pure" : [
-				{"p1" : [0, 0, 0],"p2" : [0, 0, 0],"color" : "#000000","text":"Null"},//Null
+				{"p1" : [0, 0, 0],"p2" : [0, 0, 0],"color" : "#000000","text":"Null"},
 			],
 			"nether" : [
-				{"p1" : [0, 0, 0],"p2" : [0, 0, 0],"color" : "#000000","text":"Null"},//Null
+				{"p1" : [0, 0, 0],"p2" : [0, 0, 0],"color" : "#000000","text":"Null"},
 			],
 		},
 	},
