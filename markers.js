@@ -13,7 +13,7 @@ var MAPCRAFTER_MARKERS = [
 	{
 		"id" : "homes",
 		"name" : "Дома",
-		"icon" : "home.png",
+		"icon" : "http://www.dvor22.ru/attachments/Image/5.png",
 		"iconSize" : [32, 32],
 		"showDefault" : true,
 		"markers" : {
@@ -32,7 +32,7 @@ var MAPCRAFTER_MARKERS = [
 	{
 		"id" : "farms",
 		"name" : "Фермы",
-		"icon" : "farm.png",
+		"icon" : "http://www.visvero.com/wp-content/uploads/cache/images/2017/06/factory_yellow_256/factory_yellow_256-792796559.png",
 		"iconSize" : [32, 32],
 		"showDefault" : false,
 		"markers" : {
@@ -49,8 +49,6 @@ var MAPCRAFTER_MARKERS = [
 	{
 		"id" : "portals",
 		"name" : "Порталы",
-		//"icon" : "portal.png",
-		//"icon" : "https://counter-strike.com.ua/uploads/images/icons/portal/portal_102.png",
 		"icon" : "https://3.downloader.disk.yandex.ru/preview/e590249b34bc85b2081719287ba3c4d0bc1170c97b0ec81cb3096afdcc66a34a/inf/9UWOJCYoqAO045mwgsIZiLFT85zTE69lQc1xaDg3zu0XFOh6AJbVQuTjgyzI_Wnj1xGRdGGC4vYgk459TSZv9A%3D%3D?uid=0&filename=portal.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=XXL&crop=0",
 		"iconSize" : [32, 32],
 		"showDefault" : true,
@@ -73,8 +71,7 @@ var MAPCRAFTER_MARKERS = [
 	{
 		"id" : "poi",
 		"name" : "Интересное",
-		//"icon" : "poi.png",
-		//"icon" : "https://4.downloader.disk.yandex.ru/preview/bce58b2f9de16eee6a840795534076653be8747c7b59640ce28fa70d91b3d143/inf/9UWOJCYoqAO045mwgsIZiL7VY3JStKUdEb-ceNS9CnJQV3uQIV06MT38mYDK8rqUw9E8JS6gTJhcm3zCOcHA7Q%3D%3D?uid=0&filename=Hier.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=XXL&crop=0",
+		"icon" : "https://1.downloader.disk.yandex.ru/disk/b215effafd7c646b5cc7769cf2e9bf4304514241bbc694045a7a6f92d31314ee/59ee9196/9UWOJCYoqAO045mwgsIZiLMKo9PcQQt0TR_udu8O-KB0FwsahjDF40_9BMOF2KKE5f-ikuvRdsNpOv7GlHGfDQ%3D%3D?uid=0&filename=PoiIcon.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&fsize=500818&hid=0ee05533ee8dbc75507abc0735b09c6d&media_type=image&tknv=v2&etag=0f2f57b5d5ce515829e39d79ab02ecc3",
 		"iconSize" : [64, 64],
 		"showDefault" : false,
 		"markers" : {
@@ -92,8 +89,6 @@ var MAPCRAFTER_MARKERS = [
 	{
 		"id" : "gate's",
 		"name" : "Гейты",
-		//"icon" : "portal.png",
-		//"icon" : "https://counter-strike.com.ua/uploads/images/icons/portal/portal_102.png",
 		"icon" : "https://3.downloader.disk.yandex.ru/preview/e590249b34bc85b2081719287ba3c4d0bc1170c97b0ec81cb3096afdcc66a34a/inf/9UWOJCYoqAO045mwgsIZiLFT85zTE69lQc1xaDg3zu0XFOh6AJbVQuTjgyzI_Wnj1xGRdGGC4vYgk459TSZv9A%3D%3D?uid=0&filename=portal.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=XXL&crop=0",
 		"iconSize" : [16, 16],
 		"showDefault" : true,
