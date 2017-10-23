@@ -60,7 +60,7 @@ var MAPCRAFTER_MARKERS = [
 				{"pos" : [0, 0, 0], "title" : "Null"},
 			],
 			"pure_end" : [
-				{"pos" : [0, 70, 0], "title" : "Порт назад"},
+				{"pos" : [0, 0, 70], "title" : "Порт назад"},
 			],
 		},
 	},{
