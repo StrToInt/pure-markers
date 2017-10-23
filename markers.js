@@ -19,8 +19,7 @@ var MAPCRAFTER_MARKERS = [
 				{"pos" : [0, 0, 0], "title" : "Null"},
 			],
 		},
-	},
-	{
+	},{
 		"id" : "farms",
 		"name" : "Фермы",
 		"icon" : "farm.png",
@@ -40,8 +39,7 @@ var MAPCRAFTER_MARKERS = [
 				{"pos" : [0, 0, 0], "title" : "Null"},
 			],
 		},
-	},
-	{
+	},{
 		"id" : "portals",
 		"name" : "Порталы",
 		//"icon" : "portal.png",
@@ -63,8 +61,7 @@ var MAPCRAFTER_MARKERS = [
 				{"pos" : [0, 0, 0], "title" : "Null"},
 			],
 		},
-	},
-	{
+	},{
 		"id" : "poi",
 		"name" : "Интересное",
 		//"icon" : "poi.png",
@@ -80,6 +77,50 @@ var MAPCRAFTER_MARKERS = [
 
 			],
 		},
+	},{
+		"id" : "gate's",
+		"name" : "Гейты",
+		//"icon" : "portal.png",
+		//"icon" : "https://counter-strike.com.ua/uploads/images/icons/portal/portal_102.png",
+		"icon" : "https://3.downloader.disk.yandex.ru/preview/e590249b34bc85b2081719287ba3c4d0bc1170c97b0ec81cb3096afdcc66a34a/inf/9UWOJCYoqAO045mwgsIZiLFT85zTE69lQc1xaDg3zu0XFOh6AJbVQuTjgyzI_Wnj1xGRdGGC4vYgk459TSZv9A%3D%3D?uid=0&filename=portal.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=XXL&crop=0",
+		"iconSize" : [32, 32],
+		"showDefault" : true,
+		"markers" : {
+			"pure_end" : [
+				{"pos" : [-56, 75, -77], "title" : "<b>Гейт IN-2</b><br>[Закрыт]</br>"},
+				{"pos" : [-29, 75, -91], "title" : "<b>Гейт IN-1</b><br>[Закрыт]</br>"},
+				{"pos" : [+00, 75, -96], "title" : "<b>Гейт IN+0</b><br>[Закрыт]</br>"},
+				{"pos" : [+29, 75, -91], "title" : "<b>Гейт IN+1</b><br>[Закрыт]</br>"},
+				{"pos" : [+56, 75, -77], "title" : "<b>Гейт IN+2</b><br>[Новые земли]</br>"},
+				
+				{"pos" : [+77, 75, -56], "title" : "<b>Гейт IE-2</b><br>[Закрыт]</br>"},
+				{"pos" : [+91, 75, -29], "title" : "<b>Гейт IE-1</b><br>[Закрыт]</br>"},
+				{"pos" : [+96, 75, +00], "title" : "<b>Гейт IE+0</b><br>[Ферма житаков]</br>"},
+				{"pos" : [+91, 75, +29], "title" : "<b>Гейт IE+1</b><br>[Закрыт]</br>"},
+				{"pos" : [+77, 75, +56], "title" : "<b>Гейт IE+2</b><br>[Закрыт]</br>"},
+				
+				{"pos" : [+56, 75, +77], "title" : "<b>Гейт IS-2</b><br>[Закрыт]</br>"},
+				{"pos" : [+29, 75, +91], "title" : "<b>Гейт IS-1</b><br>[Закрыт]</br>"},
+				{"pos" : [+00, 75, +96], "title" : "<b>Гейт IS+0</b><br>[Новые земли]</br>"},
+				{"pos" : [-29, 75, +91], "title" : "<b>Гейт IS+1</b><br>[Закрыт]</br>"},
+				{"pos" : [-56, 75, +77], "title" : "<b>Гейт IS+2</b><br>[Закрыт]</br>"},
+				
+				{"pos" : [-77, 75, +56], "title" : "<b>Гейт IW-2</b><br>[Закрыт]</br>"},
+				{"pos" : [-91, 75, +29], "title" : "<b>Гейт IW-1</b><br>[Закрыт]</br>"},
+				{"pos" : [-96, 75, +00], "title" : "<b>Гейт IW+0</b><br>[Ферма эндерменов]</br>"},
+				{"pos" : [-91, 75, -29], "title" : "<b>Гейт IW+1</b><br>[Закрыт]</br>"},767 40 -1
+				{"pos" : [-77, 75, -56], "title" : "<b>Гейт IW+2</b><br>[Закрыт]</br>"},
+				
+				
+				{"pos" : [+0615, 69, -0800], "title" : "<b>Путь гейта OE+0</b><br>[Новые земли]</br>"},
+				
+				{"pos" : [+0767, 40, -0001], "title" : "<b>Путь гейта OE+0</b><br>[Ферма житаков]</br>"},
+				
+				{"pos" : [-0016, 69, +1007], "title" : "<b>Путь гейта OE+0</b><br>[Новые земли]</br>"},
+				
+				{"pos" : [-0773, 85, -0003], "title" : "<b>Путь гейта OE+0</b><br>[Ферма эндерменов]</br>"},
+			],
+		},
 	},
 	
 	
@@ -91,6 +132,32 @@ var MAPCRAFTER_MARKERS = [
 	
 	
 	{
+		"id" : "gate traces",
+		"name" : "Пути гейтов",
+		"showDefault" : false,
+		"createMarker" : function(ui, groupInfo, markerInfo) {
+			
+			var latlngs = [];
+			latlngs.push(ui.mcToLatLng(markerInfo.p1[0], markerInfo.p1[1], markerInfo.p1[2]));
+			latlngs.push(ui.mcToLatLng(markerInfo.p2[0], markerInfo.p2[1], markerInfo.p1[2]));
+			
+			return L.polyline(latlngs, {"color" : markerInfo.color}).bindPopup(markerInfo.text);;
+			
+		},
+		"markers" : {
+			"pure_end" : [
+				{"p1" : [+56, 75, -77],"p2" : [+96, 75, +00],"color" : "#FF0000","text":"IN+2-IE+0"},//skip 2
+				{"p1" : [+96, 75, +00],"p2" : [+00, 75, +96],"color" : "#FF0000","text":"IE+0-IS+0"},//skip 4
+				{"p1" : [+00, 75, +96],"p2" : [-96, 75, +00],"color" : "#FF0000","text":"IS+0-IW+0"},//skip 4
+				{"p1" : [-96, 75, +00],"p2" : [+56, 75, -77],"color" : "#FF0000","text":"IW+0-IN+2"},//skip 6
+				
+				{"p1" : [+56, 75, -77],"p2" : [+0615, 69, -0800],"color" : "#00FF00","text":"<b>Гейт N+2</b><br>[Новые земли]</br>"},
+				{"p1" : [+96, 75, +00],"p2" : [+0767, 40, -0001],"color" : "#00FF00","text":"<b>Гейт E+0</b><br>[Ферма житаков]</br>"},
+				{"p1" : [+00, 75, +96],"p2" : [-0016, 69, +1007],"color" : "#00FF00","text":"<b>Гейт S+0</b><br>[Новые земли]</br>"},
+				{"p1" : [-96, 75, +00],"p2" : [-0773, 85, -0003],"color" : "#00FF00","text":"<b>Гейт W+0</b><br>[Ферма эндерменов]</br>"},
+			],
+		},
+	},{
 		"id" : "traces",
 		"name" : "Тропы",
 		"showDefault" : false,
