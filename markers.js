@@ -83,7 +83,7 @@ var MAPCRAFTER_MARKERS = [
 		//"icon" : "portal.png",
 		//"icon" : "https://counter-strike.com.ua/uploads/images/icons/portal/portal_102.png",
 		"icon" : "https://3.downloader.disk.yandex.ru/preview/e590249b34bc85b2081719287ba3c4d0bc1170c97b0ec81cb3096afdcc66a34a/inf/9UWOJCYoqAO045mwgsIZiLFT85zTE69lQc1xaDg3zu0XFOh6AJbVQuTjgyzI_Wnj1xGRdGGC4vYgk459TSZv9A%3D%3D?uid=0&filename=portal.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=XXL&crop=0",
-		"iconSize" : [32, 32],
+		"iconSize" : [16, 16],
 		"showDefault" : true,
 		"markers" : {
 			"pure_end" : [
@@ -112,13 +112,13 @@ var MAPCRAFTER_MARKERS = [
 				{"pos" : [-77, -56, 75], "title" : "<b>Гейт IW+2</b><br>[Закрыт]</br>"},
 				
 				
-				{"pos" : [+0615, -0800, 69], "title" : "<b>Путь гейта OE+0</b><br>[Новые земли]</br>"},
+				{"pos" : [+0615, -0800, 69], "title" : "<b>Гейт ON+2</b><br>[Новые земли]</br>"},
 				
-				{"pos" : [+0767, -0001, 40], "title" : "<b>Путь гейта OE+0</b><br>[Ферма житаков]</br>"},
+				{"pos" : [+0767, -0001, 40], "title" : "<b>Гейт OE+0</b><br>[Ферма житаков]</br>"},
 				
-				{"pos" : [-0016, +1007, 69], "title" : "<b>Путь гейта OE+0</b><br>[Новые земли]</br>"},
+				{"pos" : [-0016, +1007, 69], "title" : "<b>Гейт OS+0</b><br>[Новые земли]</br>"},
 				
-				{"pos" : [-0773, -0003, 85], "title" : "<b>Путь гейта OE+0</b><br>[Ферма эндерменов]</br>"},
+				{"pos" : [-0773, -0003, 85], "title" : "<b>Гейт OW+0</b><br>[Ферма эндерменов]</br>"},
 			],
 		},
 	},
@@ -139,7 +139,7 @@ var MAPCRAFTER_MARKERS = [
 			
 			var latlngs = [];
 			latlngs.push(ui.mcToLatLng(markerInfo.p1[0], markerInfo.p1[1], markerInfo.p1[2]));
-			latlngs.push(ui.mcToLatLng(markerInfo.p2[0], markerInfo.p2[1], markerInfo.p1[2]));
+			latlngs.push(ui.mcToLatLng(markerInfo.p2[0], markerInfo.p2[1], markerInfo.p2[2]));
 			
 			return L.polyline(latlngs, {"color" : markerInfo.color}).bindPopup(markerInfo.text);
 			
@@ -151,10 +151,10 @@ var MAPCRAFTER_MARKERS = [
 				{"p1" : [+00, +96, 75], "p2" : [-96, +00, 75],"color" : "#FF0000","text":"IS+0-IW+0"},//skip 4
 				{"p1" : [-96, +00, 75], "p2" : [+56, -77, 75],"color" : "#FF0000","text":"IW+0-IN+2"},//skip 6
 				
-				{"p1" : [+56, -77, 75], "p2" : [+0615, -0800, 69],"color" : "#00FF00","text" : "<b>Гейт N+2</b><br>[Новые земли]</br>"},
-				{"p1" : [+96, +00, 75], "p2" : [+0767, -0001, 40],"color" : "#00FF00","text" : "<b>Гейт E+0</b><br>[Ферма житаков]</br>"},
-				{"p1" : [+00, +96, 75], "p2" : [-0016, +1007, 69],"color" : "#00FF00","text" : "<b>Гейт S+0</b><br>[Новые земли]</br>"},
-				{"p1" : [-96, +00, 75], "p2" : [-0773, -0003, 85],"color" : "#00FF00","text" : "<b>Гейт W+0</b><br>[Ферма эндерменов]</br>"},
+				{"p1" : [+56, -77, 75], "p2" : [+0615, -0800, 69],"color" : "#00FF00","text" : "<b>Путь гейта N+2</b><br>[Новые земли]</br>"},
+				{"p1" : [+96, +00, 75], "p2" : [+0767, -0001, 40],"color" : "#00FF00","text" : "<b>Путь гейта E+0</b><br>[Ферма житаков]</br>"},
+				{"p1" : [+00, +96, 75], "p2" : [-0016, +1007, 69],"color" : "#00FF00","text" : "<b>Путь гейта S+0</b><br>[Новые земли]</br>"},
+				{"p1" : [-96, +00, 75], "p2" : [-0773, -0003, 85],"color" : "#00FF00","text" : "<b>Путь гейта W+0</b><br>[Ферма эндерменов]</br>"},
 			],
 		},
 	},{
