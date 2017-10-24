@@ -23,7 +23,7 @@ var MAPCRAFTER_MARKERS = [
 				{"pos" : [250, -441, 0], "title" : "Центр общего дома + порт в ад"},
 				{"pos" : [264, -422, 0], "title" : "Чей то дом"},
 				{"pos" : [285, -441, 0], "title" : "Sad_Moon"},
-				{"pos" : [370, -542, 0], "title" : "tur1k"},
+				{"pos" : [370, -642, 0], "title" : "tur1k"},
 				{"pos" : [264, -519, 0], "title" : "WaterDemon"},
 				{"pos" : [336, -395, 0], "title" : "<b>Замок следующих:</b><br>arhi<br>Lingnum"},
 				{"pos" : [537, -342, 0], "title" : "<b>Замок следующих:</b><br>AlanFox<br>LittleFox<br>Ederius<br>Sereina"},
