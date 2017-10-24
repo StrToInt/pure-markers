@@ -14,7 +14,7 @@ var MAPCRAFTER_MARKERS = [
 	{
 		"id" : "homes",
 		"name" : "Дома",
-		"icon" : "http://www.dvor22.ru/attachments/Image/5.png",
+		"icon" : "https://raw.githubusercontent.com/StrToInt/pure-markers/master/HomeIcon.png",
 		"iconSize" : [32, 32],
 		"showDefault" : true,
 		"markers" : {
@@ -34,7 +34,7 @@ var MAPCRAFTER_MARKERS = [
 	{
 		"id" : "farms",
 		"name" : "Фермы",
-		"icon" : "http://www.visvero.com/wp-content/uploads/cache/images/2017/06/factory_yellow_256/factory_yellow_256-792796559.png",
+		"icon" : "https://raw.githubusercontent.com/StrToInt/pure-markers/master/FactoryIcon.png",
 		"iconSize" : [32, 32],
 		"showDefault" : false,
 		"markers" : {
@@ -51,7 +51,7 @@ var MAPCRAFTER_MARKERS = [
 	{
 		"id" : "portals",
 		"name" : "Порталы",
-		"icon" : "https://3.downloader.disk.yandex.ru/preview/e590249b34bc85b2081719287ba3c4d0bc1170c97b0ec81cb3096afdcc66a34a/inf/9UWOJCYoqAO045mwgsIZiLFT85zTE69lQc1xaDg3zu0XFOh6AJbVQuTjgyzI_Wnj1xGRdGGC4vYgk459TSZv9A%3D%3D?uid=0&filename=portal.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=XXL&crop=0",
+		"icon" : "https://raw.githubusercontent.com/StrToInt/pure-markers/master/PortalIcon.png",
 		"iconSize" : [32, 32],
 		"showDefault" : true,
 		"markers" : {
@@ -91,7 +91,7 @@ var MAPCRAFTER_MARKERS = [
 	{
 		"id" : "gate's",
 		"name" : "Гейты",
-		"icon" : "https://3.downloader.disk.yandex.ru/preview/e590249b34bc85b2081719287ba3c4d0bc1170c97b0ec81cb3096afdcc66a34a/inf/9UWOJCYoqAO045mwgsIZiLFT85zTE69lQc1xaDg3zu0XFOh6AJbVQuTjgyzI_Wnj1xGRdGGC4vYgk459TSZv9A%3D%3D?uid=0&filename=portal.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=XXL&crop=0",
+		"icon" : "https://raw.githubusercontent.com/StrToInt/pure-markers/master/PortalIcon.png",
 		"iconSize" : [16, 16],
 		"showDefault" : true,
 		"markers" : {
