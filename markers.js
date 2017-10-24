@@ -73,7 +73,7 @@ var MAPCRAFTER_MARKERS = [
 	{
 		"id" : "poi",
 		"name" : "Интересное",
-		"icon" : "https://1.downloader.disk.yandex.ru/disk/b215effafd7c646b5cc7769cf2e9bf4304514241bbc694045a7a6f92d31314ee/59ee9196/9UWOJCYoqAO045mwgsIZiLMKo9PcQQt0TR_udu8O-KB0FwsahjDF40_9BMOF2KKE5f-ikuvRdsNpOv7GlHGfDQ%3D%3D?uid=0&filename=PoiIcon.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&fsize=500818&hid=0ee05533ee8dbc75507abc0735b09c6d&media_type=image&tknv=v2&etag=0f2f57b5d5ce515829e39d79ab02ecc3",
+		"icon" : "https://raw.githubusercontent.com/StrToInt/pure-markers/master/PoiIcon.png",
 		"iconSize" : [32, 59],
 		"showDefault" : false,
 		"markers" : {
