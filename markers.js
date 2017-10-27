@@ -269,5 +269,4 @@ var MAPCRAFTER_MARKERS = [
 		},
 		
 	},
-	
 ];
