@@ -26,7 +26,7 @@ var MAPCRAFTER_MARKERS = [
 				{"pos" : [370, -642, 0], "title" : "tur1k"},
 				{"pos" : [264, -519, 0], "title" : "WaterDemon"},
 				{"pos" : [336, -395, 0], "title" : "<b>Замок следующих:</b><br>arhi<br>Lingnum"},
-				{"pos" : [537, -342, 0], "title" : "<b>Замок следующих:</b><br>AlanFox<br>LittleFox<br>Ederius<br>Sereina"},
+				{"pos" : [537, -342, 72], "title" : "<b>Замок следующих:</b><br>AlanFox<br>LittleFox<br>Ederius<br>Sereina"},
 				{"pos" : [1210, -485, 0], "title" : "Sun Serega"},
 			],
 		},
