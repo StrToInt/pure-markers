@@ -59,14 +59,19 @@ var MAPCRAFTER_MARKERS = [
 		"showDefault" : true,
 		"markers" : {
 			"pure" : [
-				{"pos" : [-5, -2148, 0], "title" : "Край"},
+				{"pos" : [  -5, -2148,  0], "title" : "Край#1"},
+				{"pos" : [ 532,  5147, 26], "title" : "Край#2"},
+				
+				{"pos" : [   0,     0,  0], "title" : "Край#3"},
+				{"pos" : [   0,     0,  0], "title" : "Край#4"},
+				{"pos" : [   0,     0,  0], "title" : "Край#5"},
 			],
 			"nether_caves" : [
 				{"pos" : [46.5, -53, 0], "title" : "<b>Общий дом</b><br>Sad_Moon"},
 				{"pos" : [56, -37.5, 0], "title" : "<b>Замок следующих:</b><br>arhi<br>Lingnum"},
 				{"pos" : [73, -37.5, 0], "title" : "<b>Замок следующих:</b><br>AlanFox<br>LittleFox<br>Ederius<br>Sereina"},
 				{"pos" : [265, -58, 0], "title" : "<b>Зона временных ферм</b><br>Ферма пороха(и ниток)<br>Ферма скелетов<br>порт дето тут, надо бы точные корды"},
-				{"pos" : [6, -264.5, 0], "title" : "Порт в край"},
+				{"pos" : [6, -264.5, 0], "title" : "Порт в край #1"},
 			],
 			"pure_end" : [
 				{"pos" : [0, 0, 70], "title" : "Порт назад"},
