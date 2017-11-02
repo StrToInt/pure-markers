@@ -28,6 +28,7 @@ var MAPCRAFTER_MARKERS = [
 				{"pos" : [  336, -395,  0], "title" : "archi"},
 				{"pos" : [ 1015,   15, 65], "title" : "KertoMAJ"},
 				{"pos" : [  428, -316,  0], "title" : "Lignium"},
+				{"pos" : [ 1299, -725,  0], "title" : "sleepwalker"},
 				{"pos" : [  537, -342, 72], "title" : "<b>Замок следующих:</b><br>AlanFox<br>LittleFox<br>Ederius<br>Sereina"},
 				{"pos" : [ 1210, -485,  0], "title" : "Sun Serega"},
 			],
