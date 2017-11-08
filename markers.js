@@ -19,18 +19,20 @@ var MAPCRAFTER_MARKERS = [
 		"showDefault" : true,
 		"markers" : {
 			"pure" : [
-				{"pos" : [  -37, -143,  0], "title" : "<b>Недо домик на спавне</b><br>типо для новичков но там ничо нет"},
-				{"pos" : [  250, -441,  0], "title" : "Центр общего дома + порт в ад"},
-				{"pos" : [  264, -422,  0], "title" : "Чей то дом"},
-				{"pos" : [  285, -441,  0], "title" : "Sad_Moon"},
-				{"pos" : [  370, -642,  0], "title" : "tur1k"},
-				{"pos" : [  264, -519,  0], "title" : "WaterDemon"},
-				{"pos" : [  336, -395,  0], "title" : "archi"},
-				{"pos" : [ 1015,   15, 65], "title" : "KertoMAJ"},
-				{"pos" : [  428, -316,  0], "title" : "Lignium"},
-				{"pos" : [ 1299, -725,  0], "title" : "sleepwalker"},
-				{"pos" : [  537, -342, 72], "title" : "<b>Замок следующих:</b><br>AlanFox<br>LittleFox<br>Ederius<br>Sereina"},
-				{"pos" : [ 1210, -485,  0], "title" : "Sun Serega"},
+				{"pos" : [  -37, -143,  64], "title" : "<b>Недо домик на спавне</b><br>типо для новичков но там ничо нет"},
+				{"pos" : [  256, -441,  68], "title" : "Центр общего дома + порт в ад"},
+				{"pos" : [  263, -422,  72], "title" : "Чей то дом#1"},
+				{"pos" : [  307, -299, 107], "title" : "Чей то дом#2"},
+				{"pos" : [  286, -442,  81], "title" : "Sad_Moon"},
+				{"pos" : [  367, -643, 101], "title" : "tur1k"},
+				{"pos" : [  261, -520,  86], "title" : "WaterDemon"},
+				{"pos" : [  335, -394,  72], "title" : "archi"},
+				{"pos" : [ 1025   -17,  71], "title" : "KertoMAJ"},
+				{"pos" : [  428, -315,  88], "title" : "Lignium"},
+				{"pos" : [ 1317,  736,  67], "title" : "sleepwalker"},
+				{"pos" : [ 1198,-1812,  65], "title" : "<b>Убежище</b><br>V_o_V_a_X_a<br>R_o_M_a_X_a_UA"},
+				{"pos" : [  544, -335,  80], "title" : "<b>Замок</b><br>AlanFox<br>LittleFox<br>Ederius<br>Sereina"},
+				{"pos" : [ 1208, -489,  64], "title" : "<b>склад</b><br>Sun Serega"},
 			],
 		},
 	},
@@ -278,9 +280,12 @@ var MAPCRAFTER_MARKERS = [
 		},
 		"markers" : {
 			"pure" : [
-				{"p" : [
-					[ 0,0 ],
-				],"color" : "#000000","fo" : 0.5,"text" : "Null"},
+				{"p" : [//574 424 - 600 550
+					[574,424],
+					[600,424],
+					[600,550],
+					[574,550],
+				],"color" : "#000000","fo" : 0.5,"text" : "<b>зона для чего то</b><br>Sun Serega"},
 			],
 		},
 		
