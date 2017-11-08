@@ -109,6 +109,20 @@ var MAPCRAFTER_MARKERS = [
 		},
 	},
 	{
+		"id" : "Ocean Monument's",
+		"name" : "Морские данжи",
+		"icon" : "https://raw.githubusercontent.com/StrToInt/pure-markers/master/OcMonIcon.png",
+		"iconSize" : [32, 32],
+		"showDefault" : false,
+		"markers" : {
+			"pure" : [
+				{"pos" : [ 6808, -432, 60], "title" : "<b>#000</b><br>Губок нет<br>не осушено"},
+				{"pos" : [ 6312, -360, 60], "title" : "<b>#001</b><br>Губок нет<br>не осушено"},
+				{"pos" : [ 5864, -344, 60], "title" : "<b>#002</b><br>Губок нет<br>не осушено"},
+			],
+		},
+	},
+	{
 		"id" : "gate's",
 		"name" : "Гейты",
 		"icon" : "https://raw.githubusercontent.com/StrToInt/pure-markers/master/PortalIcon.png",
@@ -287,7 +301,7 @@ var MAPCRAFTER_MARKERS = [
 					[9616,6783],
 					[9616,7216],
 					[9183,7216],
-				],"color" : "#000000","fo" : 0.5,"text" : "<b>зона для чего то</b><br>Sun Serega"},
+				],"color" : "#000000","fo" : 0.1,"text" : "<b>Зона для фермы бетона и слизи</b><br>Sun Serega"},
 			],
 		},
 		
