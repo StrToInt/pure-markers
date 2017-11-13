@@ -29,7 +29,7 @@ var MAPCRAFTER_MARKERS = [
 				{"pos" : [  335, -394,  72], "title" : "archi"},
 				{"pos" : [ 1025   -17,  71], "title" : "KertoMAJ"},
 				{"pos" : [  428, -315,  88], "title" : "Lignium"},
-				{"pos" : [ 1317,  736,  67], "title" : "sleepwalker"},
+				{"pos" : [ 1317, -736,  67], "title" : "sleepwalker"},
 				{"pos" : [  526, -428,  58], "title" : "AT13"},
 				{"pos" : [ 1198,-1812,  65], "title" : "<b>Убежище</b><br>V_o_V_a_X_a<br>R_o_M_a_X_a_UA"},
 				{"pos" : [  544, -335,  80], "title" : "<b>Замок</b><br>AlanFox<br>LittleFox<br>Ederius<br>Sereina"},
