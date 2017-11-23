@@ -31,6 +31,7 @@ var MAPCRAFTER_MARKERS = [
 				{"pos" : [  428, -315,  88], "title" : "Lignium"},
 				{"pos" : [ 1317, -736,  67], "title" : "sleepwalker"},
 				{"pos" : [  526, -428,  58], "title" : "AT13"},
+				{"pos" : [ -305, 4406,  70], "title" : "<b>Архипелаг следующих:</b><br>Onkel_SHiZA<br>WolfStein<br>Kuroneko_san"},
 				{"pos" : [ 1198,-1812,  65], "title" : "<b>Убежище</b><br>V_o_V_a_X_a<br>R_o_M_a_X_a_UA"},
 				{"pos" : [  544, -335,  80], "title" : "<b>Замок</b><br>AlanFox<br>LittleFox<br>Ederius<br>Sereina"},
 				{"pos" : [ 1208, -489,  64], "title" : "<b>склад</b><br>Sun Serega"},
@@ -78,6 +79,7 @@ var MAPCRAFTER_MARKERS = [
 			],
 			"nether" : [
 				{"pos" : [ 1175, 875, 128], "title" : "Край#5"},
+				{"pos" : [  -38, 550, 130], "title" : "<b>Архипелаг следующих:</b><br>Onkel_SHiZA<br>WolfStein<br>Kuroneko_san"},
 			],
 			"nether_caves" : [
 				{"pos" : [46.5, -53, 0], "title" : "<b>Общий дом</b><br>Sad_Moon"},
