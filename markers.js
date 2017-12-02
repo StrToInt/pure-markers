@@ -47,9 +47,8 @@ var MAPCRAFTER_MARKERS = [
 		"markers" : {
 			"pure" : [
 				{"pos" : [  2040, -504, 190], "title" : "<b>Ферма пороха</b><br>Sun Serega"},
-				{"pos" : [  2100, -478,  40], "title" : "<b>Ферма скелетов</b><br>Sad_Moon"},
+				{"pos" : [  2100, -478, 190], "title" : "<b>Ферма скелетов</b><br>Sad_Moon"},
 				{"pos" : [-12056, 7848,  63], "title" : "<b>Ферма гвардов</b><br>AlanFox"},
-				{"pos" : [  1696,-1298, 150], "title" : "<b>Ферма жезела<br>Phoenics</b><br>sleepwalker"},
 			],
 			"nether" : [
 				{"pos" : [-1600,  982, 250], "title" : "<b>Ферма свинозомби</b><br>Serfing"},
